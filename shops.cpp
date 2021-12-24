@@ -4,7 +4,7 @@ using namespace std;
 /* Gotta read fast */
 #define BSIZE 1<<15
 char buffer[BSIZE];
-long bpos = 0L, bsize = 0L;
+long bpos = 0L, bsize = 0L; 
 long readLong()
 {
 	long d = 0L, x = 0L;
