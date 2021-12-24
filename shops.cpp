@@ -30,7 +30,7 @@ long readLong()
 int pop[Nmax];
 int min_length_of_sum[Kmax + 1];
 int main()
-{
+{ 
   /* Read input and save population of building i at pop[i] */
   int N, K;
   N = readLong();
