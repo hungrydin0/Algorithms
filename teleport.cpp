@@ -170,6 +170,10 @@ class portals_open
         {return portal_ind[i].length;}
 };
 
+/* define the array outside of main, so heap is used and not stack (stack memory smaller than heap) */
+#define Nmax 500000000
+int morty[Nmax];
+
 int main()
 {
     /* Fast input-output */
@@ -181,7 +185,6 @@ int main()
     cin >> N >> M ;
 
     /* Read from std input where each Morty is */
-    int morty[N];
     for (int i = 0; i < N; i ++) cin >> morty[i];
     /* Reads M portals from std input and stores to class */
     portals_open portals = portals_open(M, cin);
