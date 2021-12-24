@@ -21,7 +21,7 @@ long readLong()
 		c = buffer[bpos++];
 		if (c >= '0' && c <= '9') { x = x*10 + (c-'0'); d = 1; }
 		else if (d == 1) return x;
-	}
+	} 
 	return -1;
 }
  
