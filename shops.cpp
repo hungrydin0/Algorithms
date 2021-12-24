@@ -24,7 +24,7 @@ long readLong()
 	}
 	return -1;
 }
-
+ 
 #define Nmax 20000
 #define Kmax 1000000
 int pop[Nmax];
