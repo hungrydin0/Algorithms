@@ -181,7 +181,7 @@ int main()
     cin.tie(NULL);
 
     /* Read input */
-    int N, M;
+    int N, M; 
     cin >> N >> M ;
 
     /* Read from std input where each Morty is */
